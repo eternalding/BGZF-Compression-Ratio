@@ -2,7 +2,12 @@
 Parse BGZIP file and get the compressed ratio.\
 Input an bgzip file(BGZF), and the program will calculate the ratio of:\
 (#compreesed size) / (#uncompressed size)
- 
+Any suggestions are welcome.
+
+[Warning] 
+Error indicators are designed specificly for BGZF,\ 
+please do not use it for gzip files.
+
 ## Usage
 g++ compressed_rate.cpp -o cmp_rate -std=c++17
 ./cmp_rate -i <TARGET BGZF>
