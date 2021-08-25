@@ -4,8 +4,8 @@ Input an bgzip file(BGZF), and the program will calculate the ratio of:\
 (#compreesed size) / (#uncompressed size)
 Any suggestions are welcome.
 
-[Warning] 
-Error indicators are designed specificly for BGZF,\ 
+[Warning] <br>
+Error indicators are designed specificly for BGZF,<br>
 please do not use it for gzip files.
 
 ## Usage
